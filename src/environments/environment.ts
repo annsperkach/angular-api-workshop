@@ -1,3 +1,4 @@
 export const environment = {
-    api: 'https://swapi.dev/api/people/',
+  production: false,
+  api: 'https://swapi.dev/api/people/',
   };

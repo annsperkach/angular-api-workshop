@@ -1,4 +1,5 @@
-<h1>Starwars roster</h1>
-<ul>
-  <li>Luke Skywalker</li>
+<h1>Star Wars List</h1>
+<p *ngIf="!characters">loading</p>
+<ul *ngIf="characters">
+  <li *ngFor="let character of characters">{{ character.name }}</li>
 </ul>
